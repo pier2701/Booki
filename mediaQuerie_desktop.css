@@ -1,0 +1,77 @@
+ @media screen and (min-width: 992px) {
+/**version desktop à partir de 992px**/ 
+    h2 {
+      font-size: x-large;
+    }
+    h3 {
+      font-size: 23px;
+    }
+/*effet de survol du navigateur*/
+    .li_nav:hover {
+      color: #0065FC;
+      border-top: 2px solid;
+      margin-bottom: -3px;
+      padding-top: 47px;
+    } 
+/*icone barre de recherche*/
+    .fa-location-dot {
+      border: 2px solid #F2F2F2;
+      background-color: #F2F2F2;
+      padding: 12px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 10px 0px 0px 10px;
+      position: relative;
+      left: 5px;
+      top: 1px
+    }
+/*disposition partie filtres*/
+    .category {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    #filter_list {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      margin-left: 25px;
+      margin-top: -8px;
+    }
+    .filter_effect:hover {
+      color: lightskyblue;
+      cursor: pointer;
+     }
+/*icone loupe désactivée*/
+    .search_phone {
+      display: none;
+    }
+/*gestion ligne d'information*/
+    #info {
+      font-size: 17px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+/*carte section les plus populaires*/
+    .populaires-card {
+      width: 90%;
+      height: 140px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      object-fit: fill;
+      margin-top: 10px;
+      margin-bottom: 2%;
+      background-color: white;
+      border: 4px solid white;
+      border-radius: 17px 17px 17px 17px;
+      box-shadow: 4px 4px 6px #e6e6e6;
+    }
+/*alignement des étoiles*/
+    .star_pop {
+      display: flex;
+      position: relative;
+      top: 30px;
+    }
+  }  
