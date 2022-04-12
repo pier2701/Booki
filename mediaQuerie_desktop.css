@@ -1,17 +1,25 @@
  @media screen and (min-width: 992px) {
 /**version desktop à partir de 992px**/ 
+    .page {
+      max-width: 1440px;
+      margin: auto;
+    }
     h2 {
       font-size: x-large;
     }
     h3 {
       font-size: 23px;
     }
+    /*alignement des étoiles*/
+    .star_pop {
+      padding-top: 60px;
+    }
 /*effet de survol du navigateur*/
-    .li_nav:hover {
+    .li_effect:hover {
       color: #0065FC;
       border-top: 2px solid;
       margin-bottom: -3px;
-      padding-top: 47px;
+      margin-top: -2px;
     } 
 /*icone barre de recherche*/
     .fa-location-dot {
@@ -42,7 +50,7 @@
     .filter_effect:hover {
       color: lightskyblue;
       cursor: pointer;
-     }
+    }
 /*icone loupe désactivée*/
     .search_phone {
       display: none;
@@ -68,10 +76,18 @@
       border-radius: 17px 17px 17px 17px;
       box-shadow: 4px 4px 6px #e6e6e6;
     }
-/*alignement des étoiles*/
-    .star_pop {
+    .fleche {
+      font-size: 20px;
+      padding-right: 17px;
+    }
+    .stars_pop {
       display: flex;
-      position: relative;
-      top: 30px;
+      flex-direction: row;
+      padding-top: 35px;
+      padding-left: 4px;
+    }  
+/*titre partie Activités*/
+    .A-Marseille-title {
+      padding-top: 7px;
     }
   }  

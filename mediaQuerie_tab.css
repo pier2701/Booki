@@ -10,21 +10,22 @@
   h2 {
     font-size: x-large;
   }
-/*navigateur*/
-  .header_nav {
-    flex-direction: column;
+  header {
+    margin-top: 4px;
   }
+/*navigateur*/
+  
   .header_img {
     height: 90px;
   }
   li {
     width: 100%;
   }
-  .li_nav:active {
+  .li_effect:active {
     color: #0065FC;
     border-top: 4px solid;
     margin-bottom: -2px;
-    padding-top: 47px;
+    margin-top: -4px;
   } 
 /*icône barre de recherche*/
   .fa-location-dot {
@@ -105,6 +106,10 @@
   .populaires {
     width: 100%;
   }
+  .star_pop {
+    display: flex;
+    flex-direction: row;
+  }
   .populaires-display {
     width: 100%;
     flex-direction: row;
@@ -112,11 +117,11 @@
     padding-right: 2%;
     margin-bottom: 16px;
   }
-/*icône en-tête*/
+  .pop_rightside {
+    width: 100%;
+  }
   .fleche {
-    width: 60px;
-    padding-bottom: 10px;
-    margin-right: -40px;
+    font-size: 20px;
   }
   .populaires-card {
     width: 100%;
@@ -138,9 +143,6 @@
   }
   .populaires-title {
     font-size: 19px;
-  }
-  .stars_pop {
-    display: flex;
   }
 /*pied de page*/
   footer {
