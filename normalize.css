@@ -708,7 +708,7 @@ footer {
   body {
       width: 100%;
       font-size: 17px;
-      margin: auto;
+      margin-right: auto;
   }
   h2 {
       font-size: 23px;
@@ -857,18 +857,19 @@ footer {
   .mid_page {
       width: 100%;
       height: 40%;
+      
       flex-direction: column-reverse;
   } 
 /*les plus populaires*/
   .populaires {
-      width: 109%;
+      width: 110%;
       font-size: smaller;
-      margin-left: -8%;        
+      margin-left: -10%; 
       padding-bottom: 8%;
       border-radius: 0px 0px 0px 0px;
   }
   .pop_icone {
-      padding-left: 25px;
+      padding-left: 7%;
   }
   .fleche {
       font-size: 20px;
@@ -876,10 +877,10 @@ footer {
       padding-right: 22px;
   }  
   .populaires_display {
-      padding-left: 23px;
+      padding-left: 6%;
   }
   .populaires_card {
-      width: 92%;
+      width: 90%;
       height: 140px;
       display: flex;
       flex-direction: column;
@@ -887,6 +888,7 @@ footer {
       object-fit: fill;
       margin-top: 10px;
       margin-bottom: 2%;
+      margin-left: 5px;
       background-color: white;
       border: 6px solid white;
       border-radius: 17px 17px 17px 17px;
@@ -910,7 +912,7 @@ footer {
       border-radius: 15px 15px 15px 15px;
   }
   #H_Marseille {
-      margin-left: -6px;
+      margin-left: -2%;
   }
   .heb_marseille_display {
      width: 100%;
@@ -919,13 +921,13 @@ footer {
      flex-direction: column;
      justify-content: space-between;
      padding-bottom: 2%; 
-     padding-left: 8px;    
+     padding-left: 4px;    
   }
   .heb_marseille_title {
      width: 100%; 
   }
   .heb_marseille_card {
-     width: 98%;
+     width: 97%;
      height: 20%;
      margin-top: 10px;
      margin-bottom: 10px;
@@ -1011,7 +1013,7 @@ footer {
       justify-content: space-between;
   }
   .li_nav {
-      font-size: 18px;
+      font-size: 15px;
       width: 100%;
       padding-top: 0px;
   }
@@ -1131,11 +1133,12 @@ footer {
   } 
   /*les plus populaires*/
   .populaires {
-      width: 113%;
+      width: 111%;
       font-size: smaller;
       padding-left: 7%;
       padding-bottom: 8%;
-      margin-left: -12%;
+      margin-left: -11%; 
+      margin-right: 6%;
       border-radius: 0px 0px 0px 0px;
   }
   .pop_icone {
