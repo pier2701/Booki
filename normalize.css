@@ -567,8 +567,7 @@ footer {
   .header_img {
     height: 90px;
   }
-
-  .li_effect:focus {
+  .li_effect:active {
     color: #0065FC;
     border-top: 4px solid;
     margin-bottom: -2px;
@@ -616,6 +615,10 @@ footer {
   .filter_effect:active {
     color: lightskyblue;
     cursor: pointer;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.2s;
   }
 /*ligne d'informations*/
   .fa-info {
@@ -836,6 +839,10 @@ footer {
   .filter_effect:active {
       color: lightskyblue;
       cursor: pointer;
+      -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+      transform: scale(1.1);
+      transition: 0.2s;
   }
   .filter_effect {
       margin-bottom: -12px;
@@ -1063,9 +1070,13 @@ footer {
       padding-left: 1px;
   }
   /*partie filtre*/
-  .filter_effect:focus {
+  .filter_effect:active {
       color: lightskyblue;
       cursor: pointer;
+      -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+      transform: scale(1.1);
+      transition: 0.2s;
   }
   .category {
       margin-top: 60px;
