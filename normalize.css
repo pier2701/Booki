@@ -710,14 +710,17 @@ footer {
 @media screen and (min-width: 356px) and (max-width: 767px) {
   body {
       width: 100%;
-      font-size: 17px;
+      font-size: 16px;
       margin-right: auto;
   }
-  h2 {
-      font-size: 23px;
+  .partie1_title {
+      font-size: 22px
+  }
+  .midpage_title {
+      font-size: 21px;
   }
   h3 {
-      font-size: large;
+      font-size: 21px;
       margin-top: 25px;
   }
 /*en-tête*/
@@ -804,37 +807,63 @@ footer {
       flex-wrap: wrap;
   }
 /*les cellues du filtre*/
+  .fa-money-bill-wave, .fa-child-reaching, .fa-heart, .fa-dog {
+      font-size: 17px;
+  }
   .filter_cell_money {
       font-weight: bold;
-      border: 4px solid #F2F2F2;
+      font-size: 15px;
+      border: 3px solid #F2F2F2;
       border-left: none;
       border-radius: 50px 50px 50px 50px;
-      width: 200px;
+      width: 165px;
+      height: 50px;
       padding-top: 20px;
+      padding-left: 60px;
+      margin-right: 0px;
+      position: relative;
+      top: 6px;
   }
   .filter_cell_child {
       font-weight: bold;
-      border: 4px solid #F2F2F2;
+      font-size: 15px;
+      border: 3px solid #F2F2F2;
       border-left: none;
       border-radius: 50px 50px 50px 50px;
-      width: 160px;
+      width: 143px;
+      height: 50px;
       padding-top: 20px;
+      padding-left: 60px;
+      margin-right: 0px;
+      position: relative;
+      top: 6px;
   }
   .filter_cell_heart {
       font-weight: bold;
-      border: 4px solid #F2F2F2;
+      font-size: 15px;
+      border: 3px solid #F2F2F2;
       border-left: none;
       border-radius: 50px 50px 50px 50px;
-      width: 200px;
+      width: 165px;
+      height: 48px;
       padding-top: 20px;
+      padding-left: 60px;
+      position: relative;
+      top: 6px;
   }  
   .filter_cell_dog {
       font-weight: bold;
-      border: 4px solid #F2F2F2;
+      font-size: 15px;
+      border: 3px solid #F2F2F2;
       border-left: none;
       border-radius: 50px 50px 50px 50px;
-      width: 260px;
+      width: 210px;
+      height: 48.5px;
       padding-top: 20px;
+      padding-left: 60px;
+      margin-right: 0px;
+      position: relative;
+      top: 5.5px;
   }
   .filter_effect:active {
       color: lightskyblue;
@@ -850,11 +879,14 @@ footer {
 /*ligne d'information*/
   #info {
       width: 100%;
-      font-size: 17px;
+      font-size: 14px;
       margin-bottom: 30px;
       margin-top: 30px;
   }
   .fa-info {
+      padding: 4px;
+      padding-left: 10px;
+      padding-right: 9px;
       float: left;
       clear: both;
       position: relative;
@@ -864,7 +896,6 @@ footer {
   .mid_page {
       width: 100%;
       height: 40%;
-      
       flex-direction: column-reverse;
   } 
 /*les plus populaires*/
@@ -992,10 +1023,10 @@ footer {
       margin: auto;
     }
   h2 {
-      font-size: x-large;
+      font-size: 20px;
   }
   h3 {
-      font-size: large;
+      font-size: 20px;
       margin-top: 25px;
   }
   /*partie1 va de l'entête jusqu'à "Afficher plus*/
