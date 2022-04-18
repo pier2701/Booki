@@ -893,7 +893,7 @@ footer {
       position: relative;
       top: 5.5px;
   }
-  .filter_effect:active {
+  .filter_effect:hover, .filter_effect:active {
       color: lightskyblue;
       cursor: pointer;
       -ms-transform: scale(1.1); /* IE 9 */
