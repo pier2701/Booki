@@ -61,6 +61,7 @@ header {
 }
 /*change la couleur du texte avec lien*/
 a {
+  background-color: transparent;
   text-decoration: none;
   color: #000000;
 }
@@ -84,11 +85,21 @@ button {
   border-radius: 0px 10px 10px 0px;
 }
 /*modification du champ de saisie du formulaire*/
+#name-form {
+  font-weight: bold;
+}
 #name-form::placeholder {
   font-weight: bolder;
   font-size: large;
   color: #000000;
   padding-left: 7px;
+}
+#name-form:focus {
+  background-color: white;
+  border-top: #DEEBFF;
+}
+input {
+  outline: none;
 }
 /*permet de foncer la police dans Firefox*/
 input::placeholder {
@@ -360,7 +371,6 @@ input::placeholder {
   width: 100%;
   height: 520px;
 }
-
 /*gestion 2eme et 4eme colonnne*/
 .mi_card_display, .second_third_card {
   width: 23%;
@@ -481,17 +491,21 @@ footer {
         color: #0065FC;
         border-top: 3px solid;
       } 
+  /*phrase d'introduction*/
+      .phrase_intro {
+        font-size: 16px;
+      }
   /*icone barre de recherche*/
       .fa-location-dot {
         border: 2px solid #F2F2F2;
         background-color: #F2F2F2;
-        padding: 12px;
+        padding: 12.5px;
         padding-left: 15px;
         padding-right: 15px;
         border-radius: 10px 0px 0px 10px;
         position: relative;
         left: 5px;
-        top: 1px
+        top: 0.4px;
       }
   /*disposition partie filtres*/
       .category {
@@ -510,6 +524,10 @@ footer {
       .filter_effect:hover {
         color: lightskyblue;
         cursor: pointer;
+        -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+      transform: scale(1.1);
+      transition: 0.2s;
       }
   /*icone loupe désactivée*/
       .search_phone {
@@ -517,7 +535,7 @@ footer {
       }
   /*gestion ligne d'information*/
       #info {
-        font-size: 17px;
+        font-size: 16px;
         margin-top: 20px;
         margin-bottom: 40px;
       }
@@ -572,18 +590,25 @@ footer {
     border-top: 4px solid;
     margin-bottom: -2px;
     margin-top: -4px;
+  }
+/*phrase d'introduction*/
+  .phrase_intro {
+    font-size: 16px;
   } 
 /*icône barre de recherche*/
   .fa-location-dot {
     border: 2px solid #F2F2F2;
     background-color: #F2F2F2;
-    padding: 12.5px;
+    padding: 12.9px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px 0px 0px 10px;
     position: relative;
     left: 5px;
     top: 0.5px;
+  }
+  #name-form {
+  font-weight: bold;
   }
   .search_phone {
     display: none;
@@ -636,6 +661,9 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .midpage_title {
+    padding-left: 0%;
   }
 /*partie hébergements à marseille*/
   .heb_marseille {
@@ -779,8 +807,8 @@ footer {
   }
   .search_phone {
       border-radius: 15px 15px 15px 15px;
-      padding-left: 17px;
-      padding-right: 17px;
+      padding-left: 19px;
+      padding-right: 19px;
       position: relative;
       right: 15px;
   }
@@ -793,7 +821,7 @@ footer {
       border-radius: 15px 0px 0px 15px;
       position: relative;
       right: 5px;
-      top: 0.5px;
+      
   }
 /*partie filtres*/
   .category {
@@ -907,18 +935,18 @@ footer {
       border-radius: 0px 0px 0px 0px;
   }
   .pop_icone {
-      padding-left: 7%;
+      padding-left: 7.5%;
   }
   .fleche {
       font-size: 20px;
       padding-top: 5px;
-      padding-right: 22px;
+      padding-right: 2%;
   }  
   .populaires_display {
-      padding-left: 6%;
+      padding-left: 7.5%;
   }
   .populaires_card {
-      width: 90%;
+      width: 92%;
       height: 140px;
       display: flex;
       flex-direction: column;
@@ -1074,8 +1102,8 @@ footer {
   }
   .search_phone {
       border-radius: 15px 15px 15px 15px;
-      padding-left: 17px;
-      padding-right: 17px;
+      padding-left: 15px;
+      padding-right: 15px;
       position: relative;
       right: 11px;
   }
@@ -1297,11 +1325,7 @@ h1 {
 h2 {
   font-size: 20px;
   font-weight: bold;
-}
-a {
-    background-color: transparent;
-  }
-  
+}  
   /**
    * Add the correct font weight in Chrome, Edge, and Safari.
    */

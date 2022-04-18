@@ -3,16 +3,14 @@
 
 	<head>
 		<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=yes">
 				<link rel="stylesheet" type="text/css" href="normalize.css">
 					<script src="https://kit.fontawesome.com/c2ff013dbc.js" crossorigin="anonymous"></script>
 						<style>@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');</style>
-			
 			<title>Booki</title>
 	</head>
-
-		<body>
-			<div class="page">	
+	<body>
+		<div class="page">	
 			<header>
 		<!--en-tête-->
 		<img class="header_img" src="images/Booki_767.png" alt="logo">
@@ -21,13 +19,15 @@
 			<li class="li_nav"><a class="li_effect" href="#A_Marseille">Activités</a></li>
 		</ul>			
 			</header>
+		
 		<main>
+		<!--Compris entre header et footer-->	
 		<section class="partie1">
-				
-					<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-			<p>En plein centre ville ou en pleine nature</p>
+		<!--formulaire et filtres-->		
+					<h2 class="partie1_title">Trouvez votre hébergement pour des vacances de rêve</h2>
+			<p class="phrase_intro">En plein centre ville ou en pleine nature</p>
 			
-		<!--formulaires-->
+		<!--formulaire-->
 			<div>
 				<form id="search_block">
 					<i class="fa-solid fa-location-dot"></i>
@@ -50,9 +50,10 @@
 		<div id="info"><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</div>
 		</section>
 		<!--FIN DE LA 1ère partie-->	
-	
-		<!--2ème partie-->
+		
+		<!--2ème partie Hébergemets et populaires-->
 		<section class="mid_page">
+		<!--Hébergements-->
 		<div class="heb_marseille">
 			<div>
 				<h3 class="midpage_title" id="H_Marseille">Hébergements à Marseille</h3>
@@ -110,9 +111,10 @@
 					
 				</div>
 			<a href="#"><p id="afficher_plus"><b>Afficher plus</b></p></a>
-			</div>
-	
-		<div class="populaires">
+		
+		</div>
+		<!--Populaires-->
+		<article class="populaires">
 			<div class="pop_icone">	
 		<!--Les + populaires-->		
 			<h3 class="midpage_title">Les plus populaires</h3><p class="fleche"><i class="fa-solid fa-star"></i></p>
@@ -150,13 +152,12 @@
 								</div>
 							</a></div>
 			</div>
-		</div>
+		</article>
 		</section>	
 		<!--FIN 2ème partie-->
-	
-		<section>
-			<!--3ème partie-->
-		<h3 id="A_Marseille">Activités à Marseille</h3>
+		<!--3ème partie Activités-->
+		<aside>
+		<h3 class="midpage_title" id="A_Marseille">Activités à Marseille</h3>
 		<!--Activités à Marseille-->
 			<div class="A_Marseille_display">	
 		<!--les cartes-->
@@ -190,10 +191,8 @@
 				</div>
 			</div>
 	
-		</section>
-		
+		</aside>
 		</main>
-
 		<!--Bas de page-->
 		<footer>
 			<div class="foot_column">
